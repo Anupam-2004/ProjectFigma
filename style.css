@@ -1,0 +1,252 @@
+body {
+  background-color: white;
+}
+
+.paragraph h1 {
+  color: white;
+  float: right;
+}
+.paragraph h1 {
+  color: white;
+  float: right;
+  padding-right: 50px;
+}
+.paragraph p {
+  color: white;
+  float: right;
+  padding-top: 180px;
+  
+}
+
+
+.secarea {
+  height: 150px;
+  background-color: white;
+}
+.text_1 h4 {
+  float: left;
+  margin: 40px;
+  color: rgb(119, 217, 119);
+}
+.text_2 h6 {
+  float: right;
+  color: rgb(130, 223, 130);
+  margin: 40px;
+}
+.image_1 {
+  height: 450px;
+  padding: 20px;
+}
+.image_1 img {
+  float: left;
+  padding: 50px 50px;
+  height: 360px;
+}
+.searcharea {
+  height: 230px;
+  background-color: rgb(1, 59, 1);
+  height: 90px;
+  border: 1px white solid;
+  padding: 20px;
+
+}
+.bar {
+  background-color: white;
+  width: 30px;
+}
+.flowerarea{
+  text-align: center;
+}
+.plant_stand{
+  text-align: center;
+
+}
+
+.shopping {
+  width: 1000px;
+  margin-left: 180px;
+  
+}
+.shopping img {
+  height: 450px;
+  width: 100%;
+  margin-left:300px !important ;
+  padding: 30px 0px 10px 0px !important;
+  /* height: 200px; */
+}
+.footer {
+  height: 490px;
+  background-color: #014a3f;
+  color: white;
+}
+.footer ul li{
+  list-style: none;
+}
+
+.box_1 {
+  margin: 30px 20px;
+  padding: 10px;
+}
+
+.copyright {
+  background-color: #014a3f;
+  color: white;
+  height: 50px;
+  border: white 1px solid;
+}
+.copyright p {
+  float: left;
+  font-weight: 20;
+  padding: 10px 0px;
+  font-size: 13px;
+}
+.icon i {
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  
+}
+.icon{
+  float: right;
+  padding:15px;
+}
+
+
+.form-control {
+  background-color: #014a3f;
+  -webkit-text-fill-color: white;
+}
+
+.row,
+.col,
+.container,
+.container-fluid {
+  padding: 0 !important;
+  margin: 0 !important;
+
+}
+
+#bannerImage {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./image.png");
+  background-size: cover;
+  color: white;
+}
+#bannerImage div{
+  float:right;
+  /* padding:70px 70px; */
+  margin:110px 80px 0px 0px;
+}
+#bannerImage div h2 {
+  font-weight:400;
+  font-size:60px;
+  text-align: justify;
+}
+#btnandp{
+  
+  padding:10px 10px ;
+  margin:0px !important;
+  float: none !important;
+  display:flex;
+  align-items: center;
+  gap: 10%;
+}
+#btnandp p {
+  
+  
+
+  display:flex;
+  
+  align-items: center;
+  
+
+}
+
+#btnandp button:last-child{
+  color: #ffffff !important;
+}
+#btnandp button:first-child{
+height: 50px;  
+padding: 10px 20px;
+background-color: #014b40;
+}
+
+#overlayHeader {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background: oklch(90.983% 0.00433 15.923 / 0.37);
+  height: 70px;
+  padding: 30px 0px !important;
+  padding:0 !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.listItems {
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+  align-items: center;
+  color: #1b1b1b;
+  padding-left: 110px;
+  padding-top: 20px;
+  color: #014b40;
+}
+.plant {
+  color: #014b40;
+ font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 10px;
+}
+.search {
+  margin: 15px;
+}
+.search i {
+  padding: 10px;
+  color: #014b40;
+}
+
+.thirdarea {
+  height: 500px;
+}
+.card-info{
+
+  position:absolute;
+  background-color:rgba(173, 170, 170, 0.258);
+  bottom:7px;
+  width:100%;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+  padding:18px  10px;
+  display:flex ;
+  justify-content:space-between;
+  align-items:center;
+}
+.card-info h3,.card-info p{
+  padding:0 !important;
+  margin:0 !important;
+
+}
+.card-info h3{
+  font-size:16px;
+  color:#ffffff;
+}
+.card-info h3 p{
+  font-size:14px;
+  margin-top:4px 0px !important;
+  color:#ffffff;
+}
+
+.card-info button{
+  border-radius:12px;
+  color:white;
+  border:none;
+  border:.6px solid white;
+  background-color:transparent;
+  padding:5px 15px; 
+  font-weight:500;
+}
+.thirdarea{
+  margin: 0px auto !important;
+}
