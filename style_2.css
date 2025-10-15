@@ -1,114 +1,119 @@
-body{
-    background-color: white;
-
-
+body {
+  background-color: white;
+  margin: 0px auto;
 }
-.hero_section{
-    height: 450px;
-    background-color: #F5F7FA;
+.hero_section {
+  /* height: 450px; */
+  background-color: #f5f7fa;
 }
- .image img{
-    float:right;
-    height: 350px;
-    margin-right: 80px;
+.image img {
+  float: right;
+  /* height: 350px; */
+  margin-right: 80px;
 }
 .heading {
-    text-align:justify;
-    padding: 20x;
-    margin-top: 70px;
+  text-align: justify;
+  padding: 20x;
+  margin-top: 70px;
 }
-.text{
-    height: 100px;
-    text-align: center;
-    padding: 50px;
+.text {
+  padding: 150px;
+  text-align: center;
 }
-.iconarea{
-    height: 100px;
-} 
- .logo img{
-    margin-left: 30px;
-    padding: 50px;
-    text-align: center;
+.text h3 {
+  /* padding:170px ;
+    text-align: center; */
 }
- .managearea{
-    height: 150px;
-    text-align: center;
-    padding: 30px 40px;
-    
+.text p {
+  text-align: center;
 }
-.managearea p{
-    text-align: center;
+.iconarea {
+  /* height: 100px; */
 }
- .boxarea{
-    height: 400px;
-    float: left;
+.logo img {
+  margin-left: 30px;
+  padding: 50px;
+  text-align: center;
 }
- .organisation{
-    height: 200px;
-    margin: 30px 50px;
-    text-align: center;
-    padding: 50px 50px;
-} 
-.association img{
-    height: 50px;
-} 
-.framearea{ 
-     height: 350px; 
-     text-align: center;
-padding: 50px;
- } 
- .frame{
- float: right;
-    text-align: center;
-    padding: 0 px 80px;
- }
-.paragraph{
-    float: right;
-    text-align: center;
-    padding: 0 px 80px;
+.managearea {
+  text-align: center;
+  padding: 80px 40px;
+  /* margin-top: 50px; */
+}
+.managearea h2 {
+  /* text-align: center;
+    padding: 320px 40px;
+    margin-top: 50px; */
+}
+.managearea p {
+  text-align: center;
+}
+.boxarea {
+  height: 400px;
+  float: left;
+}
+.organisation {
 
-} 
-.paragraph h1,p{
-    text-align: justify;
-    margin: 20px 30px;
-} 
- .frame img{
-height: 350px;
-
+  margin: 30px 50px;
+  text-align: center;
+  padding: 50px 50px;
+}
+.association img {
+  /* height: 50px; */
+}
+.framearea {
+  text-align: center;
+  /* padding: 200px; */
+}
+.frame {
+  float: right;
+  text-align: center;
+  padding: 0 px 80px;
+}
+.paragraph {
+  float: right;
+  text-align: center;
+  padding: 0 px 80px;
+}
+.paragraph h1,
+p {
+  text-align: justify;
+  margin: 20px 30px;
+}
+.frame img {
+  /* height: 350px; */
 }
 .score {
-  height: 350px;
+  /* height: 350px; */
   text-align: center;
   padding: 50px 50px;
   margin-top: 30px;
-  
 }
 
-.icon img{
-    float: right;
+.icon img {
+  float: right;
 }
-.lockarea{
-    height:400px;
+.lockarea {
+  /* height: 400px; */
 }
-.lockarea img{
-    height: 350px;
-    float: left;
-    margin-left: 20px;
+.lockarea img {
+  /* height: 350px; */
+  float: left;
+  margin-left: 20px;
 }
-.lockarea h1{
-    text-align:justify;
+.lockarea h1 {
+  text-align: justify;
 }
-.customers{
-    height: 400px;
-    text-align: justify;
-
-} 
-.customers img{
+.customers {
+  /* height: 400px; */
+  text-align: justify;
+  padding: 100px;
+}
+.customers img {
   width: 380px;
   /* margin: 0px auto;  */
   margin-left: 110px;
-
 }
-.customers h4{
-    color: green;
+.customers h4 {
+  color: green;
 }
