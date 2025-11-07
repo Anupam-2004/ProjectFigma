@@ -10,7 +10,10 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style_2.css" />
+      <link rel="stylesheet" href="style_2.css"/>
+       <link rel="stylesheet" href="aos.css"/>
+      
+
     <link rel="stylesheet" href="css/font-awesome.css">
   </head>
 
@@ -190,7 +193,7 @@
     <section class="organisation">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 col-12">
+          <div class="col-md-4 col-12" data-aos="fade-up-right">
             <div class="association">
               <img src="Icon.png" alt="" />
               <h5>Membership Organisations</h5>
@@ -346,4 +349,24 @@
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"
   ></script>
+  <script src="aos.js"></script>
+		
+
+		<script>
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+		</script>
+
+		<script>
+			hljs.initHighlightingOnLoad();
+
+			$('.hero__scroll').on('click', function(e) {
+				$('html, body').animate({
+					scrollTop: $(window).height()
+				}, 1200);
+			});
+		</script>
+
 </html> 
