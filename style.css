@@ -251,7 +251,7 @@ input{
 
 }
 #btnandp {
-  padding: 10px 10px;
+  padding: 5px 10px 20px 10px;
   margin: 0px !important;
   float: none !important;
   display: flex;
