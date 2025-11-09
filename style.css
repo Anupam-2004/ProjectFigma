@@ -242,7 +242,7 @@ input{
 #bannerImage div {
   float: right;
 
-  margin: 140px 100px 0px 0px;
+  margin: 130px 100px 0px 0px;
 }
 #bannerImage div h2 {
   font-weight: 600;
@@ -289,7 +289,7 @@ input{
   color: #014a3f;
 }
 .navbar{
-  padding: 20px 40px 20px 10px;
+  padding: 20px 30px 20px 10px;
   background-color: oklch(90.983% 0.00433 15.923 / 0.37);
 
 }
