@@ -2,22 +2,42 @@ body {
   background-color: white;
   margin: 0px auto;
 }
+.navbar{
+  padding: 15px 20px;
+  background-color: white;
+}
+
 .hero_section {
   /* height: 450px; */
   background-color: #f5f7fa;
+
 }
 .image img {
   float: right;
-  /* height: 350px; */
-  margin-right: 80px;
+  width: 550px;
+  /* margin-right: 10px; */
+  padding-top: 50px;
+
 }
 .heading {
   text-align: justify;
   padding: 20x;
   margin-top: 70px;
 }
+.heading h2{
+  color:#4CAF4F;
+  font-size: 40px;
+}
+
+.heading p{
+  font-size: 15px;
+  margin-left: 5px;
+}
+.btn{
+  background-color: #4CAF4F;
+}
 .text {
-  padding: 150px;
+  padding: 40px;
   text-align: center;
 }
 .text h3 {
@@ -28,16 +48,16 @@ body {
   text-align: center;
 }
 .iconarea {
-  /* height: 100px; */
+  
 }
 .logo img {
   margin-left: 30px;
-  padding: 50px;
+  padding: 30px 50px;
   text-align: center;
 }
 .managearea {
   text-align: center;
-  padding: 80px 40px;
+  padding: 70px 40px;
   /* margin-top: 50px; */
 }
 .managearea h2 {
@@ -54,12 +74,12 @@ body {
 }
 .organisation {
 
-  margin: 30px 50px;
+  margin: 10px 50px;
   text-align: center;
-  padding: 50px 50px;
+  padding: 20px 50px;
 }
 .association img {
-  /* height: 50px; */
+  
 }
 .framearea {
   text-align: center;
@@ -67,13 +87,13 @@ body {
 }
 .frame {
   float: right;
-  text-align: center;
-  padding: 0 px 80px;
+  /* text-align: center; */
+  padding-left: 80px;
 }
 .paragraph {
   float: right;
-  text-align: center;
-  padding: 0 px 80px;
+  text-align: justify;
+  padding: 35px 80px;
 }
 .paragraph h1,
 p {
@@ -81,38 +101,51 @@ p {
   margin: 20px 30px;
 }
 .frame img {
-  /* height: 350px; */
+width: 400px;
+}
+.btn{
+  padding: 10px;
 }
 .score {
   /* height: 350px; */
-  text-align: center;
-  padding: 50px 50px;
-  margin-top: 30px;
+  text-align: justify;
+  padding: 30px 50px;
+  /* margin-top: 30px; */
+  background-color: rgb(234, 229, 229);
+}
+.score h2{
+color: #4CAF4F;
+}
+.score p{
+  font-size: 15px;
 }
 
 .icon img {
   float: right;
 }
 .lockarea {
-  /* height: 400px; */
+  text-align: justify;
+  padding: 30px;
+  
 }
 .lockarea img {
-  /* height: 350px; */
+width: 400px;
   float: left;
   margin-left: 20px;
 }
 .lockarea h1 {
-  text-align: justify;
+}
+.lock_para{
+  padding: 30px;
 }
 .customers {
-  /* height: 400px; */
+  
   text-align: justify;
   padding: 100px;
 }
 .customers img {
-  width: 380px;
-  /* margin: 0px auto;  */
-  margin-left: 110px;
+  width: 280px;
+  
 }
 .customers h4 {
   color: green;
