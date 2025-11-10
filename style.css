@@ -278,13 +278,7 @@ input{
   top: 0px;
   width: 100%;
   background: oklch(90.983% 0.00433 15.923 / 0.37);
-  /* height: 90px; */
-  /* padding: 35px 50px !important; */
-  /* padding: 0 !important; */
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
   z-index: 999;
   color: #014a3f;
 }
