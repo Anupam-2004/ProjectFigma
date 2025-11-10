@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  /* margin: 0px auto; */
+  margin: 0px auto;
   align-items: center;
 }
 .navbar{
@@ -17,13 +17,13 @@ body {
 .image img {
   float: right;
   width: 550px;
- 
   padding-top: 50px;
+  padding-left:200px ;
 
 }
 .heading {
   text-align: justify;
-  padding: 20x;
+  /* padding: 20x; */
   padding-top: 70px;
 }
 .heading h2{
